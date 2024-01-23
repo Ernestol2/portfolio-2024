@@ -1,0 +1,58 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto Slab', serif;
+}
+
+/* NAVEGACION */
+
+.navbar-nav a {
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.navbar-nav a:hover {
+    text-decoration: underline;
+}
+
+/* MAIN Section */
+
+.main {
+    background-color: #f0eae1;
+    margin: 2rem;
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+
+.main img {
+    width: 8rem;
+    border: 4px solid black;
+    padding: 20px;
+    border-radius: 50%;
+}
+
+/* HABILIDADES */
+
+.skills {
+    background-color: #f0eae1;
+    margin: 2rem;
+    min-height: 40vh;
+    padding: 20px;    
+}
+
+/* PROYECTOS */
+
+.proyectos {
+    background-color: #f0eae1;
+    margin: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 50vh;
+}
